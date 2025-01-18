@@ -8,7 +8,6 @@
 import pyautogui
 import time
 
-
 pyautogui.hotkey("command", "space")
 pyautogui.write("chrome")
 pyautogui.PAUSE = 1 # o comando digitar Chrome vai demorar 1 segundo para ser executado
