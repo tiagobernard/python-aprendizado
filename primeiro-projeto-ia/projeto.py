@@ -22,13 +22,11 @@ quantidade = st.number_input("Digite a quantidade de toalhas:", min_value=0) #, 
 
 # Botão para calcular o preço
 if st.button("Calcular preço"):
-    if quantidade == 1:
+    if quantidade > 0:
         preco_previsto = modelo.predict([[quantidade]])[0][0]
-        st.write(f"O valor de {quantidade:.0f} toalha é de R${preco_previsto:.2f}.")
-        st.balloons()
-    if quantidade >= 2:
-        preco_previsto = modelo.predict([[quantidade]])[0][0]
-        st.write(f"O valor de {quantidade:.0f} toalhas é de R${preco_previsto:.2f}.")
+        plural = "toalha" if quantidade == 1 else "toalhas"
+        preco_formatado = f"{preco_previsto:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        st.write(f"O valor de {quantidade:.0f} {plural} é de R${preco_formatado:}.")
         st.balloons()
     if quantidade == 0:
         st.error("Por favor, insira um número maior que zero para o orçamento.")
