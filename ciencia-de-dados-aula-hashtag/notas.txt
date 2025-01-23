@@ -1,0 +1,77 @@
+Pilares de ciências de Dados
+1 - Tecnologia / automações
+2 - Negócios
+3 - Matemática / Estatística
+
+Etapas de um projeto de ciência de Dados
+1 - Entendimento do Negócio
+2 - Entendimento dos Dados
+3 - Preparação dos Dados
+    Manipulação de Bases de Dados
+    Limpeza de erros e valores vazios
+    Padronização dos Dados
+4 - Análise e Modelagem dos Dados
+    Análise Exploratória
+    Pre processamento
+    Dados/Treino de dados teste
+    Inteligencia artificial - modelos
+    Classificação x Regressão
+    Supervisionado x Não Supervisionado x Reforço
+    Escolha do melhor modelos
+    Otimização
+5 - Validação
+6 - Preparação / VIsualização
+
+---------------------------------------------
+Exemplos no site do kaggle
+Ex. Previsão do preço de passagem aérea.
+
+Analise dos dados
+O preço varia de acordo com a cia aérea?
+Como é afetado o preço quando os bilhetes são comprados 1 ou 2 dias antes da partida
+O preço do bilhete muda com base no horário de partida e no horário de chegada?
+
+alta cardinalidade é inútil para analise de dados. Ex. código do vôo
+
+Pré-processamento
+A inteligencia artificial sempre aprende com números.
+Sempre substituir palavras em números
+
+Treino é o que a IA vai usar para aprender e teste o nome já diz, pra testar
+Maioria dos dados são usados para aprender.
+
+Criar um modelo de IA
+O melhor modelo a gente não sabe qual é, até testar o modelos.
+Mas sabemos como chegar na lista de modelos que devemos testar
+São testados os modelos de acordo com nossos desafios.
+Modelo de classificação, tipos de dados do lado A e dados do lado B. Separadno em varias categorias
+Modelo de Regressão, é o modelo para quanto é a passagem aérea, ex. previsão
+
+Aprendizado da IA
+Supervisionado, é o que vc tem a resposta com base em um histórico.
+Não Supervisionado, é quando vc não tem resposta certa, ex. separar o perfil de cliente.
+Reforço, é quando a IA começa burra, quando faz a começa a cosia certa é recompensado. Quanto mais a IA faz certo, ela ganha um ponto. Ex. recomendação de vídeo do YT.
+
+Escolha do melhor modelo
+Regressão Linear(e variações)
+Regressão com rede neural
+Árvore de decisao
+Randomforest
+Regressao KNN
+SVM
+Treinar cada uma desses modelos.
+A escolha é feita para o modelo que erra menos.
+
+Otimização
+Validação cruzada
+Mais dados de treino/teste
+Otimização de parâmetros
+
+Entrega, apresentação para o cliente com uma interface gráfica
+
+O que é preciso???
+Dominar os 6 métodos
+Dominar os 3 Pilares
+Com isso a pessoa tem capacidade de fazer projeto de ciencias de dados para qualquer área.
+
+Curos de Ciencia de Dados da Hashtag em 23/01/25 = R$ 1.000,00
