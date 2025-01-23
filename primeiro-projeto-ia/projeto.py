@@ -12,7 +12,7 @@ modelo = LinearRegression()
 x = df[["quantidade"]]
 y = df[["custo"]]
 modelo.fit(x, y)
-
+ 
 # Título e layout da interface
 st.title("Prevendo o valor de produção de toalhas premium.")
 st.divider()
