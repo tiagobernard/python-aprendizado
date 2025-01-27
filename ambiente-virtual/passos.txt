@@ -1,0 +1,18 @@
+1 - criar uma pasta do projeto
+2 - dar o comando shift+command+p
+3 - digitar env
+4 - clicar em create environment
+5 - Escolher Venv
+6 - escolher a versão do python
+
+Para ativar o ambiente virtual manualmente
+
+NO TERMINAL
+cd .venv
+cd bin
+source activate
+
+Para desativar
+deactivate
+
+Tutorial: https://www.youtube.com/watch?v=wOchmO8J7gA
