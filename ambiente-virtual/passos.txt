@@ -1,7 +1,6 @@
 CRIANDO O AMBIENTE MANUALMENTE
 
-python -m venv nomeambiente
-
+python -m venv nomeambiente(.venv)
 
 CRIANDO O AMBIENTE
 
