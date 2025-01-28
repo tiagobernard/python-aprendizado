@@ -1,3 +1,10 @@
+CRIANDO O AMBIENTE MANUALMENTE
+
+python -m venv nomeambiente
+
+
+CRIANDO O AMBIENTE
+
 1 - criar uma pasta do projeto
 2 - dar o comando shift+command+p
 3 - digitar env
